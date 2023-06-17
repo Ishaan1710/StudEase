@@ -1,0 +1,81 @@
+.calendar-container {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ul.calendar-wrapper {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.calendar-button {
+    background-color: rgb(13,82,153);
+    border-radius: 50%;
+}
+
+button.calendar-button:hover {
+    background-color: rgb(40, 122, 203);
+    animation: calendar_button 200ms;
+    animation-fill-mode: forwards;
+}
+
+li.week, li.date {
+    margin: 0;
+    width: calc( 100% / 7 );
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    padding: 1%;
+}
+
+.week {
+    background-color: rgb(13, 82, 153);
+    color: white;
+    border: 1px solid;
+}
+
+.date {
+    background-image: radial-gradient(white, rgb(241, 241, 241));
+    padding: 2%;
+}
+
+.this-month:hover {
+    background-image: radial-gradient(rgb(241, 241, 241), rgb(231, 231, 231));
+    cursor: pointer;
+}
+
+.not-this-month {
+    color: rgb(162, 163, 164);
+}
+
+.scheduled {
+    color: red;
+}
+
+.today {
+    background-color: purple;
+    color: white;
+}
+
+.scheduled.today {
+    background-color: orange;
+}
+
+.selected {
+    background-color: aqua;
+}
+
+@keyframes calendar_button {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
