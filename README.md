@@ -1,6 +1,7 @@
 # StudEase-Application
 
-A web application intended to ease scheduling and maintaining daily tasks for students.
+Students face a lot of issues with numerous tasks they are given with and it hinders their ability to function efficiently due to inability to schedule there tasks manually.
+StudEase application is intended to ease scheduling and maintaining daily tasks for students, hence solving a huge part of their problem in college life.
 Built using AngularJS, NodeJS, ExpressJS, Mongodb.
 
 <strong>Run</strong>: `npm install`
