@@ -1,6 +1,8 @@
 # Studen-Help-Application
 An web application developed using angularjs, nodejs, expressjs, mongodb. This application is intended to help students schedule their activities
 
+<strong>Run</strong>: `npm install`
+
 # To run the application
 ### Client side
 <strong>start-client</strong>
