@@ -10,7 +10,7 @@ const app = express();
 
 //create mongoose connectuon
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://localhost:27017/StudentHelp')
+mongoose.connect('mongodb://127.0.0.1:27017/StudentHelp')
     .then(() => console.log('Connected to MongoDB!'));
 
 //import models
