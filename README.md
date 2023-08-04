@@ -1,9 +1,11 @@
-# Studen-Help-Application
-An web application developed using angularjs, nodejs, expressjs, mongodb. This application is intended to help students schedule their activities
+# StudEase-Application
+
+A web application intended to ease scheduling and maintaining daily tasks for students.
+Built using AngularJS, NodeJS, ExpressJS, Mongodb.
 
 <strong>Run</strong>: `npm install`
 
-# To run the application
+## To run the application
 ### Client side
 <strong>start-client</strong>
 The package.json implements http-server node module to run the client server
